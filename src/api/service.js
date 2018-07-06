@@ -12,7 +12,7 @@ import {
 
 class Http {
   constructor () {
-    this.Domain = 'http://127.0.0.1:8000/'
+    this.Domain = ''
   }
   require (options) {
     if (!options.api) throw new Error('api 不能为空')
